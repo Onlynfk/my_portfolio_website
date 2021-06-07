@@ -1,0 +1,114 @@
+.work_image {
+    width: 10px;
+    overflow: hidden;
+}
+
+.works {
+    background-color: #1C2833;
+    overflow: hidden;
+    overflow-y: hidden;
+}
+
+.works__bg {
+    border: none;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    overflow: hidden;
+    color: grey;
+
+}
+
+.works__bg:hover {
+    background-color: #0507FB ;
+    transition: all 0.2s;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    overflow: hidden;
+    color:white
+    
+}
+.works__bg:hover .button_me{
+    color: white !important;
+    border: 1px transparent blue;
+    background-color: #1A5276;
+    border-radius:20px;
+    padding: 5px;
+    margin: 4px;
+}
+
+.works__bg .button_me{
+    background-color: #2C3E50;
+    border-radius:20px;
+    padding: 5px;
+    margin: 4px;
+}
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.skills {
+    background-color: #1C2833;
+    -webkit-transition: all .8s ease-in-out;
+    -moz-transition: all .8s ease-in-out;
+    -o-transition: all .8s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+.experience_header{
+    align-items: center;
+    border: 1px transparent #34495E ;
+    box-shadow: 1px 2px #2471A3;
+    padding: 5px;
+
+}
+.skills__box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    overflow: hidden;
+    margin-bottom: 20px;
+    background-color: #1C2833;
+}
+
+.skills_set {
+    color: white;
+    cursor: pointer;
+
+}
+
+.skills_set:hover {
+    cursor:pointer;
+    border: 1px transparent #34495E;
+    box-shadow: 5px 10px #949ea5;
+    transition: all 2s;
+
+
+}
+
+.about {
+    background-color: #1C2833;
+    padding: 30px;
+    line-height: 40px;
+}
+
+.blog {
+    background-color: #1C2833;
+    overflow: hidden;
+    width: 100%
+}
+
+.create {
+    padding: 2em;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+    background-color: #17202A;
+}
+
+.create:hover {
+    transition: all 0.2s;
+    background-color: grey ;
+}

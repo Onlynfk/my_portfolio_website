@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="31" viewBox="0 0 35 31">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#206d44"/>
+      <stop offset="0.318" stop-color="#c8c84c"/>
+      <stop offset="0.686" stop-color="#5f5bdb"/>
+      <stop offset="1" stop-color="#103722"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_1" data-name="Group 1" transform="translate(-3560 -2288)">
+    <rect id="bubble" width="31" height="31" rx="15.5" transform="translate(3560 2288)" fill="url(#linear-gradient)"/>
+    <text id="nlyG" transform="translate(3572 2309)" fill="#c8c84c" font-size="14" font-family="Pristina-Regular, Pristina"><tspan x="0" y="0">nlyG</tspan></text>
+  </g>
+</svg>
