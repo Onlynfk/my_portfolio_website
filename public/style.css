@@ -122,6 +122,15 @@ img {
     font-weight: bolder;
     text-decoration: none;
   }
+  .works__bg:hover {
+    background-color: #1C2833 ;
+    transition: none;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    overflow: hidden;
+    color:white
+    
+}
   .me{
     object-fit: contain;
     /* background-image: url('./images/me2.svg'); */
