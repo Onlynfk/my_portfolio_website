@@ -10,7 +10,7 @@ function Footer() {
           <button class="mybutton in ">Want to Work with Me</button>{' '}
         </a>
 
-        <small> I'm currently avialable </small>
+        <small className='text-secondary'> I'm currently avialable </small>
       </div>
       <div class="footer__first dark_bg mb-5 ">
         <div class="foot mb-3 ">
@@ -53,7 +53,7 @@ function Footer() {
             OG
           </p>
           <div spacing={4} direction="row" align="center">
-            <a href="#">
+            <a href="#!">
               <img
                 src={Logo}
                 class="mb-3 "

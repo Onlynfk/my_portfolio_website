@@ -2,6 +2,7 @@ import React from 'react';
 function Hero() {
   return (
     <div className="hero">
+
       <div className="control-svg">
         <div className="content">
           <div className="word-wrap">

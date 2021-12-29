@@ -57,6 +57,7 @@ function Blog() {
         href="https://onlygod.medium.com/writing-your-first-django-app-535fabe4cb70"
         target="_blank"
         class=" text-decoration-none "
+        rel='noreferrer'
       >
         <div class="create text-white mb-3 ">
           <h5>Writing your First Django App (The Beginner’s Guide) 😎.</h5>
