@@ -13,9 +13,29 @@ import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
 import { ColorModeSwitcher } from '../ColorModeSwitcher';
 import { Logo } from '../Logo';
 
-const Links = ['Dashboard', 'Projects', 'Team'];
-
-const NavLink = ({ children }) => (
+const Links =[
+  {
+    "name":"About",
+    "link":"#about"
+  },
+  {
+    "name":"Projects",
+    "link":"#works"
+  },
+  {
+    "name":"Skills",
+    "link":"#skills"
+  },
+  {
+    "name":"Blog",
+    "link":"#blog"
+  },
+  {
+    "name":"Contact",
+    "link":"mailto:onlygodovbije@gmail.com"
+  },
+]
+const NavLink = ({ title, web }) => (
   <Link
     px={2}
     py={1}
@@ -24,9 +44,9 @@ const NavLink = ({ children }) => (
       textDecoration: 'none',
       bg: useColorModeValue('gray.200', 'gray.700'),
     }}
-    href={'#'}
+    href={web}
   >
-    {children}
+    {title}
   </Link>
 );
 
@@ -35,7 +55,7 @@ export default function Simple() {
 
   return (
     <>
-      <Box bg={useColorModeValue('gray.100', 'gray.900')} px={4}>
+      <Box bg={useColorModeValue('gray.100', 'gray.900')} px={4} >
         <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
           <IconButton
             size={'md'}
@@ -57,7 +77,7 @@ export default function Simple() {
               display={{ base: 'none', md: 'flex' }}
             >
               {Links.map(link => (
-                <NavLink key={link}>{link}</NavLink>
+                <NavLink web={link.link} key={link.name} title={link.name}/>
               ))}
             </HStack>
           </HStack>
@@ -70,8 +90,8 @@ export default function Simple() {
           <Box pb={4} display={{ md: 'none' }}>
             <Stack as={'nav'} spacing={4}>
               {Links.map(link => (
-                <NavLink key={link}>{link}</NavLink>
-              ))}
+                <NavLink web={link.link} key={link.name} title={link.name}/>
+                ))}
             </Stack>
           </Box>
         ) : null}

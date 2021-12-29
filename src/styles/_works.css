@@ -9,6 +9,12 @@
 }
 .works img{
     object-fit: contain;
+    width: 500px;
+    height: 300px;
+    
+}
+.works p{
+    font-weight: 500;
 }
 .works__bg {
     border: none;

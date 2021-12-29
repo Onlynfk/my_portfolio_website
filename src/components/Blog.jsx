@@ -3,7 +3,7 @@ import { Button } from '@chakra-ui/react';
 
 function Blog() {
   return (
-    <div class="blog container  " id="myblog ">
+    <div class="blog container" id="blog">
       <h5 class="text-center mt-3 mb-4  "> ✍🏼 Blog</h5>
       <a
         href="https://medium.com/codex/how-to-integrate-react-and-django-framework-in-a-simple-way-c8b90f3ce945 "
