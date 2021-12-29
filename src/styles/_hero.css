@@ -53,7 +53,13 @@
     height: 500px;
     background-repeat: no-repeat;
     background-size: contain;
-
+    background: url('https://image.freepik.com/free-vector/computer-monitor-graphic-animator-creating-video-game-modeling-motion-processing-video-file-using-professional-editor-vector-illustration-graphic-design-art-designer-workplace-concept_74855-13038.jpg');
+    object-position: 50% 60%; /* try 20px 10px */ 
+    width: 450px; /* width of container */
+    height: 350px; /* height of container */
+    background-blend-mode: multiply;
+    border-radius: 2rem;
+    object-fit: cover;
 }
 .mybutton {
     color: #fbfcfd;
