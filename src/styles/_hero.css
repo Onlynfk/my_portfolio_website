@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+/* * {
+    margin: 0;
+    padding: 0;
+    font-family: Raleway;
+    box-sizing: border-box;
+} */
+
+.works__bg {
+    border: none;
+    color: #808B96;
+}
+
+.works__bg:hover {
+    background-color: #CA6F1E;
+    color: #D0D3D4;
+    transition: all 0.2s;
+    margin: 5px;
+}
+
+.space span {
+    margin: 0 0.2em 0.1em 0.2em;
+}
+
+.hero {
+    width: 100%;
+    /* height: 90vh; */
+    /* background-image: url(images/wall-wallpaper-concrete-colored-painted-textured-concept.jpg); */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.logo {
+    width: 100px;
+    cursor: pointer;
+    margin-top: 45px;
+}
+
+
+.name {
+    text-transform: uppercase;
+    font-size: large;
+    font-family: Poppins;
+    font-weight: 400;
+}
+
+.me{
+    object-fit: contain;
+    width: 500px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.mybutton {
+    color: #fbfcfd;
+    padding: 15px 45px;
+    background: transparent;
+    border: 1px solid #2C3E50;
+    outline: none;
+    cursor: pointer;
+    font-size: small;
+    text-align: center;
+    margin: 0 0.4em;
+    border-radius: 2px;
+    font-weight: bolder;
+    text-decoration: none;
+
+    
+}
+
+@media(max-width: 768px) {
+    .mybutton {
+        color: #fbfcfd;
+        padding: 10px 10px;
+        background: transparent;
+        border: 1px solid #2C3E50;
+        outline: none;
+        cursor: pointer;
+        font-size: small;
+        text-align: center;
+        margin: 0 0.4em;
+        border-radius: 2px;
+        font-weight: bolder;
+        text-decoration: none;
+    
+        
+    }    
+        
+}
+
+.mybutton:hover {
+    background-color: #2C3E50;
+    border: 1px solid#0507FB;
+    color: white !important;
+}
+
+.in {
+    background-color: #0507FB;
+}
+
+.out {
+    background-color: #21618C;
+}
+
+.control-svg {
+    display: flex;
+    align-items: center;
+    width: 150%;
+    justify-content: space-around;
+    position: absolute;
+}
+
+.content {
+    position: absolute;
+    top: 30%;
+    left: 6%;
+    z-index: 2;
+    transform: translate(-2%);
+}
+
+.hello {
+    text-transform: uppercase;
+    color: #0507FB;
+    font-weight: 800;
+    font-size: 18px;
+    margin: 0 0.4em;
+}
+
+.header_title {
+    font-size: 45 px;
+    margin: 10px 0 30px;
+    line-height: 50px;
+    font-weight: 400;
+    font-family: Poppins;
+}
+
+.sidebar {
+    width: 50px;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.menu {
+    display: block;
+    width: 25px;
+    margin: 40px auto 0;
+    cursor: pointer;
+}
+
+.social-links img,
+.useful-links img {
+    width: 25px;
+    margin: 5px auto;
+    cursor: pointer;
+}
+
+.social-links {
+    width: 50px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translate(-10%);
+}
+
+.useful-links {
+    width: 50px;
+    text-align: center;
+    position: absolute;
+    bottom: 2px;
+}
+
+
+.connect__me i {
+    color: #566573;
+    margin: 0 0.5em;
+    margin-top: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.connect__me i:hover {
+    color: #0507FB;
+}
+
+.connect__me {
+    display: flex;
+}
+
+.rbutton {
+    color: white;
+    padding: 15px 45px;
+    background: darkblue;
+    border: 1px solid #0507FB;
+    outline: none;
+    cursor: pointer;
+    font-size: small;
+    text-align: center;
+    margin: 0 0.4em;
+    border-radius: 2px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.rbutton:hover {
+    color: #D5DBDB;
+    border: 1px solid #D5DBDB;
+    transition: all 1s;
+}
+
+@media (max-width:690px) {
+    .hide-for-mobile {
+        display: none;
+    }
+    .show-border {
+        border: 1px solid darkblue;
+    }
+}
+
+@media (min-width: 64em) {
+    .hide-for-desktop {
+        display: none;
+    }
+}

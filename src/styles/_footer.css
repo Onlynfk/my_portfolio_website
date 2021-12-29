@@ -1,0 +1,145 @@
+#footer {
+    padding: 5em 4em 2em;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    overflow: hidden;
+}
+
+#footer-cta a {
+    border: 2px solid #fff;
+    border-radius: 45px;
+    color: #fff;
+}
+
+#footer-cta a:hover {
+    color: rgba(255, 103, 68, 0.91);
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 14px 1px rgba(0, 0, 0, 0.15);
+}
+
+#footer #logo {
+    background-color: #2874A6;
+    border-radius: 50%;
+    color: #2874A6;
+    padding: .4em;
+    font-family: "Maven pro", sans-serif;
+    font-size: 1.6em;
+    font-weight: 500;
+    display: inline;
+}
+
+#footer #copyright {
+    margin-top: 1.6em;
+    font-family: "Maven pro", sans-serif;
+    font-weight: 500;
+    color: #fbfcfd;
+}
+
+.footer__first {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    overflow: hidden;
+}
+
+.foot {
+    display: block;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    overflow: hidden;
+}
+
+.foot a {
+    display: block;
+    text-decoration: none;
+    line-height: 30px;
+}
+
+.foot a:hover {
+    color: #B3B6B7;
+}
+
+.foot__side {
+    display: block;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    overflow: hidden;
+}
+
+.foot__side a {
+    display: block;
+    text-decoration: none;
+    color: #fbfcfd;
+}
+
+.connect__me i {
+    color: #566573;
+    margin: 0 0.5em;
+    margin-top: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.connect__me i:hover {
+    color: #0507FB;
+}
+
+.connect__me {
+    display: flex;
+}
+
+.rbutton {
+    color: white;
+    padding: 15px 45px;
+    background: darkblue;
+    border: 1px solid #0507FB;
+    outline: none;
+    cursor: pointer;
+    font-size: small;
+    text-align: center;
+    margin: 0 0.4em;
+    border-radius: 2px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.rbutton:hover {
+    color: #D5DBDB;
+    border: 1px solid #D5DBDB;
+    transition: all 1s;
+}
+
+@media (max-width:690px) {
+    .hide-for-mobile {
+        display: none;
+    }
+    .show-border {
+        border: 1px solid darkblue;
+    }
+}
+
+@media (min-width: 64em) {
+    .hide-for-desktop {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

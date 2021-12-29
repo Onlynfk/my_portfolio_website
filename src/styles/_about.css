@@ -1,0 +1,28 @@
+.about {
+  padding: 30px;
+  line-height: 40px;
+}
+
+.blog {
+  margin-top: 5rem;
+  overflow: hidden;
+  width: 100%;
+}
+
+.aboutBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.aboutBox img {
+  object-fit: contain;
+  border-radius: 3rem;
+}
+@media (max-width: 768px) {
+  .aboutBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
