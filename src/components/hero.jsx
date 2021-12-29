@@ -16,7 +16,7 @@ function Hero() {
           </div>
 
           <div className="wrap_button">
-            <a href="#work">
+            <a href="#works">
               <button
                 type="button"
                 className="in mybutton "
