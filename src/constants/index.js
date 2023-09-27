@@ -30,7 +30,8 @@ import {
   trackimmunize,
   ordermeals,
   bes,
-  trybe
+  trybe,
+  cmedia
 } from "../assets";
 
 export const navLinks = [
@@ -188,9 +189,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "TrackImummize",
+    name: "CMedia",
     description:
-      "A unique and functional pediatrics immunization managment system for tracking immunization records of children in Nigeria.",
+      "Social media Web App with features that includes user authentication, profile management, post creation and interaction, post saving and searching, user connections, notifications, and real-time chat using Websockets..",
     tags: [
       {
         name: "django",
@@ -205,8 +206,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: trackimmunize,
-    source_code_link: "https://github.com/Onlynfk/django-immunization-managment-system",
+    image: cmedia,
+    source_code_link: "https://social-media-web-app-bkah.onrender.com/",
   },
   {
     name: "NetMovie",

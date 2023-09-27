@@ -29,7 +29,6 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import bes from "./company/betaeshopping.png";
 import trybe from "./company/trybe.png";
-
 import abbas from "./company/abbas.png"
 
 import carrent from "./carrent.png";
@@ -38,6 +37,7 @@ import tripguide from "./tripguide.png";
 import netflix from "./netflix.png";
 import trackimmunize from "./health.svg";
 import ordermeals from "./ordermeals.png"
+import cmedia from "./cmedia.png"
 
 
 export {
@@ -77,4 +77,5 @@ export {
   ordermeals,
   bes,
   trybe,
+  cmedia,
 };
